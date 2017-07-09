@@ -45,6 +45,4 @@ if (opciones == 0 || opciones == null) {
 
 	return caja5;
 	}
-
-
 }
