@@ -1,4 +1,3 @@
-function validateForm(){
 	var nombre = $('#name').val();
 	var apellido = $('#lastname').val();
 	var email = $('#input-email').val();
@@ -9,6 +8,8 @@ function validateForm(){
 	var caja3 = $('.input-box')[2];
 	var caja4 = $('.input-box')[3];
 	var caja5 = $('.input-box')[4];
+
+function validateForm(){
 
 if (nombre.charAt(0) != nombre.charAt(0).toUpperCase() || nombre.length == 0 || nombre == ""){
 
@@ -42,7 +43,7 @@ if (opciones == 0 || opciones == null) {
 
 	$(caja5).append('<span>Debes seleccionar una opción</span>')
 
-	return caja;
+	return caja5;
 	}
 
 
