@@ -42,7 +42,7 @@ if (opciones == 0 || opciones == null) {
 
 	$(caja5).append('<span>Debes seleccionar una opción</span>')
 
-	return caja;
+	return caja5;
 	}
 
 
