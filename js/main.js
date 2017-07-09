@@ -1,3 +1,6 @@
 function validateForm(){
-	/* Escribe tú código aquí */
+	var nombre = $('#name').val();
+	var apellido = $('#lastname').val();
+	var email = $('#input-email').val();
+	var password = $('#input-password').val();
 }
