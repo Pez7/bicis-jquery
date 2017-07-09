@@ -24,6 +24,12 @@ if (apellido.charAt(0) != apellido.charAt(0).toUpperCase() || apellido.length ==
 	return caja2;
 	}
 
+if (!(/^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,4})$/.test(email))){
+
+	$(caja3).append('<span>Ingresa un correo válido</span>');
+
+	return caja3;
+	}
 
 
 
