@@ -17,6 +17,13 @@ if (nombre.charAt(0) != nombre.charAt(0).toUpperCase() || nombre.length == 0 || 
 	return caja1;
 	}
 
+if (apellido.charAt(0) != apellido.charAt(0).toUpperCase() || apellido.length == 0 || apellido == ""){
+
+	$(caja2).append('<span>Ingresa un apellido válido</span>');
+
+	return caja2;
+	}
+
 
 
 
