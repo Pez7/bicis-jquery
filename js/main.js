@@ -40,7 +40,7 @@ if (password == "123456" || password == "098765" || password.length <= 6){
 
 if (opciones == 0 || opciones == null) {
 
-	$(caja5).append('<span>Ingresa una opción válida</span>')
+	$(caja5).append('<span>Debes seleccionar una opción</span>')
 
 	return caja;
 	}
