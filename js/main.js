@@ -31,6 +31,19 @@ if (!(/^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,4})$/.test(
 	return caja3;
 	}
 
+if (password == "123456" || password == "098765" || password.length <= 6){
+
+	$(caja4).append('<span>Ingresa una contraseña válida</span>');
+
+	return caja4;
+	}
+
+if (opciones == 0 || opciones == null) {
+
+	$(caja5).append('<span>Ingresa una opción válida</span>')
+
+	return caja;
+	}
 
 
 }
